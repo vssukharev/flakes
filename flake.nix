@@ -11,6 +11,8 @@
     {
       packages = {
         c3c = inputs.c3c.packages.${system}.default;
+        c3c-last = inputs.c3c.packages.${system}.last;
+        c3c-latest = inputs.c3c.packages.${system}.latest;
       };
     }
   );
